@@ -26,14 +26,37 @@ python3 -m http.server 8080
 # then visit http://localhost:8080
 ```
 
-## Free / low-cost hosting (recommended)
+## Free hosting
 
-Because everything is static HTML/CSS/JS, hosting can be **$0**:
+This is pure static HTML/CSS/JS — hosting is **$0**.
 
-1. **Cloudflare Pages** — free, fast CDN  
-2. **Netlify** — free tier, drag-and-drop the `website` folder  
-3. **GitHub Pages** — free if you put the repo on GitHub  
-4. **Any shared host** — upload the contents of `website/` via FTP
+### Live repo
+https://github.com/bogdang40/my-home-sweet-home-afc
+
+### Option A — Vercel (recommended)
+
+1. Go to https://vercel.com/new and sign in (GitHub is easiest)
+2. Import **`bogdang40/my-home-sweet-home-afc`**
+3. Leave settings as defaults (no build command, output = root)
+4. Click **Deploy**
+
+You’ll get a free URL like `https://my-home-sweet-home-afc.vercel.app`.
+
+**CLI (after `npx vercel login`):**
+
+```bash
+cd website
+npx vercel --prod --yes
+```
+
+### Option B — GitHub Pages
+
+If Pages is enabled on the repo:  
+https://bogdang40.github.io/my-home-sweet-home-afc/
+
+### Option C — Netlify
+
+Drag-and-drop this `website` folder at https://app.netlify.com/drop
 
 No Node server, PHP, or database required.
 
