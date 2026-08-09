@@ -1,0 +1,18 @@
+Free stock photos used on the site (commercial use allowed):
+
+1. Hero (gazebo.jpg)
+   Source: Pexels — photo 3768131
+   https://www.pexels.com/photo/3768131/
+   License: Pexels License (free, no attribution required)
+
+2. Welcome / caregiver (caregiver.jpg)
+   Source: Pexels — photo 18429415
+   https://www.pexels.com/photo/caregiver-talking-to-a-senior-woman-in-a-corridor-18429415/
+   License: Pexels License (free, no attribution required)
+
+3. Why us / hands (hands.jpg)
+   Source: Unsplash — photo by rawpixel
+   https://unsplash.com/photos/1584515933487-779824d29309
+   License: Unsplash License (free, no attribution required)
+
+Original brochure crops (grainy) saved in original-brochure-crops/ if you want them later.
