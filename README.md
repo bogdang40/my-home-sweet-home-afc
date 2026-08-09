@@ -30,31 +30,32 @@ python3 -m http.server 8080
 
 This is pure static HTML/CSS/JS — hosting is **$0**.
 
-### Live repo
-https://github.com/bogdang40/my-home-sweet-home-afc
+### ✅ Live now (free)
 
-### Option A — Vercel (recommended)
+**Website:** https://bogdang40.github.io/my-home-sweet-home-afc/  
+**Source:** https://github.com/bogdang40/my-home-sweet-home-afc  
 
-1. Go to https://vercel.com/new and sign in (GitHub is easiest)
-2. Import **`bogdang40/my-home-sweet-home-afc`**
-3. Leave settings as defaults (no build command, output = root)
+Hosted on **GitHub Pages** (free forever for public static sites).  
+Every push to `main` auto-redeploys.
+
+### Option A — Vercel (also free, optional)
+
+Nice if you want a `*.vercel.app` URL or custom domain tooling:
+
+1. Open https://vercel.com/new and sign in with GitHub  
+2. Import **`bogdang40/my-home-sweet-home-afc`**  
+3. Leave defaults (no framework / no build command)  
 4. Click **Deploy**
 
-You’ll get a free URL like `https://my-home-sweet-home-afc.vercel.app`.
-
-**CLI (after `npx vercel login`):**
+Or from the terminal after login:
 
 ```bash
 cd website
+npx vercel login
 npx vercel --prod --yes
 ```
 
-### Option B — GitHub Pages
-
-If Pages is enabled on the repo:  
-https://bogdang40.github.io/my-home-sweet-home-afc/
-
-### Option C — Netlify
+### Option B — Netlify
 
 Drag-and-drop this `website` folder at https://app.netlify.com/drop
 
